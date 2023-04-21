@@ -1,0 +1,40 @@
+main {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	height: 100%;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	padding: 4rem;
+	border: 1px solid #cccc;
+	border-radius: 8px;
+	width: 400px;
+}
+
+form label,
+form span {
+	margin-bottom: 1em;
+}
+
+form input {
+	margin-bottom: 1em;
+}
+
+input {
+	padding: .5em
+}
+
+form button {
+	padding: 1em;
+	font-weight: bold;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+
+form span {
+	color: red;
+}
